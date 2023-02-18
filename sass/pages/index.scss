@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* nav start */
+a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    padding: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.box-1 {
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bc {
+    background: #BB2339;
+    padding-bottom: 237px;
+}
+
+/* nav finish */
+
+/* .box-2 start */
+
+.header h3 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on,
+        'lnum' on;
+    color: #FFFFFF
+}
+
+.header h1 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    padding-top: 25px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF
+}
+
+.header p {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    padding-top: 20px;
+    max-width: 453px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    padding: 8px 32px;
+    border-radius: 100px;
+}
+
+.box-2 {
+    padding-top: 144px;
+    display: flex;
+
+}
+
+// finish
+
+#main {
+    background: #F8F8F8;
+}
+
+.fff h1 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #BB2339;
+}

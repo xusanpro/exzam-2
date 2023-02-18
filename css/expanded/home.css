@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+/* nav start */
+a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  padding: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.btn-1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 10px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.box-1 {
+  padding: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bc {
+  background: #BB2339;
+}
+
+/* nav finish */
+span {
+  color: #BB2339;
+}
+
+.span > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 70px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #B0B0B0;
+}
+
+.cule h1 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  max-width: 348px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.gap {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: transparent;
+  background: #BB2339;
+  border-radius: 100px;
+  padding: 10px 30px;
+  border: 1px solid #FFFFFF;
+}
+
+.cule {
+  background-color: #BB2339;
+  padding: 50px 50px 53px 40px;
+  border-radius: 20px;
+  width: 450px;
+  height: 700px;
+}
+
+.gap:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #242424;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+}
+
+.btn-club {
+  display: grid;
+  grid-gap: 10px;
+  flex-direction: column;
+}
+
+.fom h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #242424;
+}
+
+.fom p {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #BB2339;
+}
+
+.fom {
+  margin-left: 36px;
+  background: #FFFFFF;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+  padding: 30px 30px 50px 30px;
+}
+
+.table-cap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.logo-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 36px 40px;
+}
+
+.table-cap {
+  margin-top: 70px;
+}
+
+/* finish */
+.hupo p {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.hupo h1 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.hupo p {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.hupo h3 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.hupo {
+  margin-top: -200px;
+  padding: 64px 100px;
+  background: #BB2339;
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+  position: relative;
+  bottom: -192px;
+}
+
+.input {
+  border: 1px solid rgba(245, 239, 219, 0.5);
+  border-radius: 100px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #AAAAAA;
+  background-color: #BB2339;
+  padding: 12px 504px 12px 18px;
+}
+
+.btn-3 {
+  font-family: "Cera Round Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 12px 32px;
+}
+
+.form {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.bom h1 {
+  font-family: "Cera Round Pro";
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.bom p {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+#laziz {
+  background: #BB2339;
+  padding-top: 292px;
+}
+
+.meple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.logo-homes img {
+  padding: 10px;
+}
+
+.logo-homes {
+  margin-left: 150px;
+}
+
+.logo-home {
+  margin-left: 40px;
+}
+
+.p {
+  font-family: "Open Sans";
+  font-style: normal;
+  padding-top: 82px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+/* footer finish  */
+#loading {
+  position: fixed;
+  background-color: wheat;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}

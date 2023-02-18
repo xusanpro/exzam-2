@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* nav start */
+a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    padding: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.box-1 {
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bc {
+    background: #BB2339;
+}
+
+/* nav finish */
+
+span {
+    color: #BB2339;
+}
+
+.span>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #B0B0B0;
+}
+
+.span>h1 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #242424;
+}
+
+.boop h1 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    max-width: 332px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #242424;
+}
+
+.boop p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    padding-top: 10px;
+    max-width: 361px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+
+.boop {
+    background: #FFFFFF;
+    border: 1px solid rgba(36, 36, 36, 0.1);
+    border-radius: 14px;
+    padding: 0px 1px 30px 1px;
+}
+
+
+
+.mom h5 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #BB2339;
+}
+
+.momo p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #242424;
+}
+
+.mom {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table {
+    margin-top: 77px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px 40px;
+}
+
+/* finish */
+
+.btn-2 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    margin-top: 70px;
+    margin-left: 600px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #242424;
+    padding: 8px 32px;
+    background-color: transparent;
+    border: 1px solid #BB2339;
+    border-radius: 100px;
+}
+
+/* finish */
+
+.hupo p {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.hupo h1 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.hupo p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.hupo h3 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.hupo {
+    margin-top: -200px;
+    padding: 64px 100px;
+    background: #BB2339;
+    box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+    border-radius: 20px;
+    position: relative;
+    bottom: -192px;
+}
+
+
+
+
+.input {
+    border: 1px solid rgba(245, 239, 219, 0.5);
+    border-radius: 100px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+    background-color: #BB2339;
+    padding: 12px 504px 12px 18px;
+}
+
+.btn-3 {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 12px 32px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 64px;
+}
+
+/* box-3 finish */
+
+// footer start
+
+.bom h1 {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.bom p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#laziz {
+    background: #BB2339;
+    padding-top: 292px;
+}
+
+.meple {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo-homes img {
+    padding: 10px;
+}
+
+.logo-homes {
+    margin-left: 150px;
+}
+
+.logo-home {
+    margin-left: 40px;
+}
+
+.p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    padding-top: 82px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* footer finish  */
